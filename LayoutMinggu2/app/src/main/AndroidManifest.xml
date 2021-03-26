@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elapp.layoutpertemuan3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LayoutPertemuan3">
+        <activity android:name=".ScrollViewHorizontalActivity"></activity>
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".MaterialDesign" />
+        <activity android:name=".TableLayoutActivity" />
+        <activity android:name=".FrameLayoutActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
+        <activity android:name=".RelativeLayoutActitivty" />
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_linear_layout"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_1"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_2"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_3"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_layout" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_4"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_5"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_layout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_6"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/material_design" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_7"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scroll_view" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center|top"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:text="@string/_8"
+                android:textSize="40sp"
+                app:backgroundTint="@null"
+                android:background="@drawable/button_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/scroll_view_horizontal" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

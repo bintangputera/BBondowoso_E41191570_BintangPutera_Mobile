@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">LayoutPertemuan3</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="reminder_name">Reminder Name</string>
+    <string name="done">Done</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="tanggal">Wed, June 27 2012</string>
+    <string name="tombol">Tombol</string>
+    <string name="username">Username : </string>
+    <string name="masukkan_username">Masukkan username</string>
+    <string name="password_input">Password : </string>
+    <string name="masukkan_password">Masukkan password</string>
+    <string name="submit">Submit</string>
+    <string name="text_button">Text Button</string>
+    <string name="scroll_view">Scroll View</string>
+    <string name="welcome_to_scroll_view">Welcome to scroll View</string>
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button Two</string>
+    <string name="button_three">Button Three</string>
+    <string name="button_four">Button Four</string>
+    <string name="button_five">Button Five</string>
+    <string name="button_six">Button Six</string>
+    <string name="button_seven">Button Seven</string>
+    <string name="button_eight">Button Eight</string>
+    <string name="button_nine">Button Nine</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="_3">3</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="_4">4</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="_5">5</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="_6">6</string>
+    <string name="material_design">Material Design</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="scroll_view_horizontal">Scroll View Horizontal</string>
+
+    <string-array name="date_adapter">
+        <item>Wed, June 27 2012</item>
+    </string-array>
+
+    <string-array name="clock_adapter">
+        <item>8:00 AM</item>
+    </string-array>
+
+</resources>
