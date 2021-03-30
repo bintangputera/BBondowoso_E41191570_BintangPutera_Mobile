@@ -1,15 +1,17 @@
 package com.elapp.listview
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.ListView
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.elapp.listview.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var adapter: ArrayAdapter<CharSequence>
 
@@ -20,12 +22,14 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         super.onCreate(savedInstanceState)
         _activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        adapter = ArrayAdapter.createFromResource(this, R.array.country_array, android.R.layout.simple_list_item_1)
-        binding?.countryListView?.adapter = adapter
-        binding?.countryListView?.setOnItemClickListener(this)
+        binding?.btnListView?.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ListViewActivity::class.java))
+        }
+
+        binding?.btnRecyclerView?.setOnClickListener {
+            startActivity(Intent(this@MainActivity, RecyclerViewActivity::class.java))
+        }
+
     }
 
-    override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        Toast.makeText(this, adapter.getItem(position), Toast.LENGTH_SHORT).show()
-    }
 }
