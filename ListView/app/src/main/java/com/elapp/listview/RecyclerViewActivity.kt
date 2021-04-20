@@ -30,13 +30,15 @@ class RecyclerViewActivity : AppCompatActivity() {
 
     fun addData() {
         mahasiswaArrayList = ArrayList<Mahasiswa>()
-        mahasiswaArrayList.add(Mahasiswa("Bintang", "E41191570", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Tegar", "E41190868", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Rifjan", "E41190860", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Ipang", "E41192090", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Derby", "E41192010", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Reza", "E41193010", "123456789"))
-        mahasiswaArrayList.add(Mahasiswa("Zami", "E41194509", "123456789"))
+        with(mahasiswaArrayList){
+            add(Mahasiswa("Bintang", "E41191570", "123456789"))
+            add(Mahasiswa("Tegar", "E41190868", "123456789"))
+            add(Mahasiswa("Rifjan", "E41190860", "123456789"))
+            add(Mahasiswa("Ipang", "E41192090", "123456789"))
+            add(Mahasiswa("Derby", "E41192010", "123456789"))
+            add(Mahasiswa("Reza", "E41193010", "123456789"))
+            add(Mahasiswa("Zami", "E41194509", "123456789"))
+        }
     }
 
 }
