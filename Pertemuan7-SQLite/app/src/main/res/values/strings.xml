@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RoomSQLiteDemo</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="nim_mahasiswa">Nim Mahasiswa</string>
+    <string name="tambah_mahasiswa_baru">Tambah Mahasiswa Baru</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="masukkan_nim_mahasiswa">Masukkan NIM Mahasiswa</string>
+    <string name="masukkan_nama_mahasiswa">Masukkan Nama Mahasiswa</string>
+    <string name="masukkan_tanggal_lahir">Masukkan Tanggal Lahir</string>
+    <string name="pilih_jenis_kelamin">Pilih Jenis Kelamin</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="simpan">Simpan</string>
 </resources>
