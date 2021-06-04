@@ -1,9 +1,8 @@
 package com.elapp.roomsqlitedemo.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.elapp.roomsqlitedemo.R
+import androidx.appcompat.app.AppCompatActivity
 import com.elapp.roomsqlitedemo.databinding.ActivityTambahDataBinding
 import com.elapp.roomsqlitedemo.db.MahasiswaDatabase
 import com.elapp.roomsqlitedemo.db.dao.MahasiswaDao

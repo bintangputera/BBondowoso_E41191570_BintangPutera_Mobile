@@ -7,8 +7,9 @@ import com.elapp.roomsqlitedemo.databinding.MahasiswaListItemBinding
 import com.elapp.roomsqlitedemo.db.entity.Mahasiswa
 import com.elapp.roomsqlitedemo.util.SelectedClickListener
 
-class MahasiswaAdapter(private val selectedClickListener: SelectedClickListener): RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder>() {
-
+class MahasiswaAdapter(
+        private val selectedClickListener: SelectedClickListener)
+    : RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder>() {
     private var mahasiswaList = ArrayList<Mahasiswa>()
 
     fun setList(mList: ArrayList<Mahasiswa>) {
@@ -19,7 +20,10 @@ class MahasiswaAdapter(private val selectedClickListener: SelectedClickListener)
         parent: ViewGroup,
         viewType: Int
     ): MahasiswaAdapter.MahasiswaViewHolder {
-        val view = MahasiswaListItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val view = MahasiswaListItemBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false)
         return MahasiswaViewHolder(view)
     }
 
@@ -41,5 +45,4 @@ class MahasiswaAdapter(private val selectedClickListener: SelectedClickListener)
             binding.txNimMahasiswa.text = mahasiswa.nim
         }
     }
-
 }

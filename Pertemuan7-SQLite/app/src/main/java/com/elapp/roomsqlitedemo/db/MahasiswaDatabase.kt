@@ -9,7 +9,6 @@ import com.elapp.roomsqlitedemo.db.entity.Mahasiswa
 
 @Database(entities = [Mahasiswa::class], exportSchema = false, version = 2)
 abstract class MahasiswaDatabase: RoomDatabase() {
-
     abstract fun getMahasiswaDao(): MahasiswaDao
 
     companion object {
@@ -33,5 +32,4 @@ abstract class MahasiswaDatabase: RoomDatabase() {
             }
         }
     }
-
 }

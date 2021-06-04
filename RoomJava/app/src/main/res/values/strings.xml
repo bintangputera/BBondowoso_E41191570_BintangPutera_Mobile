@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Room-Java</string>
+    <string name="add_text">Add Text</string>
+    <string name="save_as_private">Save As Private</string>
+    <string name="save_as_public">Save as Public</string>
+    <string name="click_to_view">Click to View</string>
+    <string name="show_private_data">Show private data</string>
+    <string name="show_public_data">Show public data</string>
+</resources>

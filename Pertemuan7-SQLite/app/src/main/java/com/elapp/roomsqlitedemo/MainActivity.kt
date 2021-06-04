@@ -32,9 +32,7 @@ class MainActivity : AppCompatActivity(), SelectedClickListener {
         binding?.btnTambah?.setOnClickListener {
             startActivity(Intent(this, TambahDataActivity::class.java))
         }
-
     }
-
     private fun getDataMahasiswa() {
         database = MahasiswaDatabase.getInstance(applicationContext)
         dao = database.getMahasiswaDao()
