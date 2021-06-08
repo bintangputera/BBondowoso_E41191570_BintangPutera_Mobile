@@ -3,4 +3,12 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="masukkan_username_anda">Masukkan username anda</string>
+    <string name="masukkan_password_anda">Masukkan Password Anda</string>
+    <string name="sudah_punya_akun_login_disini">Sudah punya akun ? Login disini</string>
+    <string name="belum_punya_akun_daftar_disini">Belum punya akun ? Daftar disini</string>
+    <string name="masuk">Masuk</string>
+    <string name="masuk_akun_anda_untuk_lanjut">Masuk akun anda untuk lanjut</string>
+    <string name="daftar">Daftar</string>
 </resources>

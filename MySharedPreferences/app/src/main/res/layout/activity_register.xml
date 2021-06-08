@@ -13,17 +13,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textColor="@color/black"
-        android:text="@string/masuk"
+        android:text="@string/daftar"
         android:textSize="24sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/tx_sub_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="@string/masuk_akun_anda_untuk_lanjut"
-        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tx_title_username"
@@ -66,8 +58,8 @@
         android:hint="@string/masukkan_password_anda" />
 
     <Button
-        android:id="@+id/btn_login"
-        android:text="@string/login"
+        android:id="@+id/btn_register"
+        android:text="@string/register"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
@@ -83,6 +75,6 @@
         android:layout_marginTop="16dp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:text="@string/belum_punya_akun_daftar_disini" />
+        android:text="@string/sudah_punya_akun_login_disini" />
 
 </LinearLayout>
